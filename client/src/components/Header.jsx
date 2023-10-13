@@ -14,7 +14,7 @@ export default function Header() {
           </h1>
         </Link>
 
-        <form className="bg-slate-100 rounded-md p-2 flex items-center mb-2">
+        <form className="bg-slate-100 rounded-md p-3 flex items-center mb-2">
           <input
             type="text"
             placeholder="Search item..."
