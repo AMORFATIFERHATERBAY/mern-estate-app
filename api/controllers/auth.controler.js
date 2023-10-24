@@ -10,11 +10,13 @@ export const signup = async (req, res, next) => {
     await newUser.save();
     res.status(201).json("New user is created successfully!");
   } catch (error) {
-    next(
-      errorHandler(
-        500,
-        `mern-estate-app.users index: username_1 dup key:${newUser.username}`
-      )
-    );
+    next(error);
   }
 };
+
+/* next(
+  errorHandler(
+    500,
+    `mern-estate-app.users index: username_1 dup key:${newUser.username}`
+  )
+); */
