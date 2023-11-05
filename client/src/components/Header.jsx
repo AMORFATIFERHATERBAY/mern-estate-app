@@ -34,7 +34,7 @@ export default function Header() {
             </li>
           </Link>{" "}
           <Link to={"/sign-in"}>
-            <li className="text-white  text-slate-900 text-md md:text-xl  font-bold bg-green-600 rounded-lg hover:bg-green-700 hover:rounded-3xl md:px-6 md:py-3">
+            <li className="text-white text-md md:text-xl  font-bold bg-green-600 rounded-lg hover:bg-green-700 hover:rounded-3xl md:px-6 md:py-3">
               Sign in
             </li>
           </Link>

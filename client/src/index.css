@@ -6,16 +6,20 @@ body {
   background-color: #f8f9f7;
 }
 
+#modal-signup {
+  position: relative;
+  box-sizing: border-box;
+}
+
 .modal-signup {
-  background-color: #f8f7f8;
-  border: 1px solid #e3e3e3;
+  background-color: #f8f9f7;
   border-radius: 16px;
   box-sizing: border-box;
   /* font-family: Source Sans Pro; */
   height: 100%;
   left: 0;
   padding: 48px;
-  position: relative;
+  position: absolute;
   text-align: left;
   top: 0;
   width: 100%;
